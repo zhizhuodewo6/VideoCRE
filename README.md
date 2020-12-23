@@ -1,1 +1,3 @@
 # VideoCRE
+通过使用WebRTC的VideoCapter、VideoSource、VideoSink、SurfaceViewRender、MediaCodeVideoEncoder完成通过手机摄像头的采集获取surface，然后通过SurfaceViewRender进行摄像头所采集视频的播放，并且通过编码器MediaCodeVideoEncoder的h264编码进行视频编码，最后通过Android提供MediaMuxer进行音视频合成生成mp4文件进行保存。
+该工程项目代码在master分支
